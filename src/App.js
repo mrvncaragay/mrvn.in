@@ -1,9 +1,12 @@
-import { useStateValue } from './context';
+import React from 'react';
+import { Button } from '@material-ui/core';
 
 function App() {
-	const [{ darkMode }] = useStateValue();
-
-	return <div style={{ backgroundColor: darkMode }}>Initialized mrvn.in</div>;
+	return (
+		<Button variant='outlined' color='primary'>
+			Mrvn.in
+		</Button>
+	);
 }
 
 export default App;
