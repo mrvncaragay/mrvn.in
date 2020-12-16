@@ -1,0 +1,2 @@
+(this["webpackJsonpmrvn.in"]=this["webpackJsonpmrvn.in"]||[]).push([[0],{10:function(n,t,e){"use strict";e.r(t);var i=e(0),r=e(1),c=e.n(r),s=e(3),o=e.n(s);e(9);var d=function(){return Object(i.jsx)("div",{children:"Initialized mrvn.in"})};o.a.render(Object(i.jsx)(c.a.StrictMode,{children:Object(i.jsx)(d,{})}),document.getElementById("root"))},9:function(n,t,e){}},[[10,1,2]]]);
+//# sourceMappingURL=main.097ab3eb.chunk.js.map

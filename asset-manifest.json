@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mrvn.in/static/css/main.8a959fba.chunk.css",
+    "main.js": "/mrvn.in/static/js/main.097ab3eb.chunk.js",
+    "main.js.map": "/mrvn.in/static/js/main.097ab3eb.chunk.js.map",
+    "runtime-main.js": "/mrvn.in/static/js/runtime-main.b8359ffc.js",
+    "runtime-main.js.map": "/mrvn.in/static/js/runtime-main.b8359ffc.js.map",
+    "static/js/2.7c155fb4.chunk.js": "/mrvn.in/static/js/2.7c155fb4.chunk.js",
+    "static/js/2.7c155fb4.chunk.js.map": "/mrvn.in/static/js/2.7c155fb4.chunk.js.map",
+    "index.html": "/mrvn.in/index.html",
+    "static/css/main.8a959fba.chunk.css.map": "/mrvn.in/static/css/main.8a959fba.chunk.css.map",
+    "static/js/2.7c155fb4.chunk.js.LICENSE.txt": "/mrvn.in/static/js/2.7c155fb4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8359ffc.js",
+    "static/js/2.7c155fb4.chunk.js",
+    "static/css/main.8a959fba.chunk.css",
+    "static/js/main.097ab3eb.chunk.js"
+  ]
+}
