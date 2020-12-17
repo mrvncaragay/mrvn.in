@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { StateProvider, InitialState, StateReducer } from './context';
+import { ThemeProvider } from '@material-ui/core/styles';
+import Theme from './styles/custom';
 
 ReactDOM.render(
 	<React.StrictMode>
 		<StateProvider initialState={InitialState} reducer={StateReducer}>
-			<App />
+			<ThemeProvider theme={Theme}>
+				<App />
+			</ThemeProvider>
 		</StateProvider>
 	</React.StrictMode>,
 	document.getElementById('root')
