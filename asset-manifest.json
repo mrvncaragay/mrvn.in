@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/mrvn.in/static/css/main.2f1fcdc0.chunk.css",
-    "main.js": "/mrvn.in/static/js/main.bda46f93.chunk.js",
-    "main.js.map": "/mrvn.in/static/js/main.bda46f93.chunk.js.map",
+    "main.js": "/mrvn.in/static/js/main.a9e24e41.chunk.js",
+    "main.js.map": "/mrvn.in/static/js/main.a9e24e41.chunk.js.map",
     "runtime-main.js": "/mrvn.in/static/js/runtime-main.b8359ffc.js",
     "runtime-main.js.map": "/mrvn.in/static/js/runtime-main.b8359ffc.js.map",
-    "static/js/2.11753467.chunk.js": "/mrvn.in/static/js/2.11753467.chunk.js",
-    "static/js/2.11753467.chunk.js.map": "/mrvn.in/static/js/2.11753467.chunk.js.map",
+    "static/js/2.7cee80f7.chunk.js": "/mrvn.in/static/js/2.7cee80f7.chunk.js",
+    "static/js/2.7cee80f7.chunk.js.map": "/mrvn.in/static/js/2.7cee80f7.chunk.js.map",
     "index.html": "/mrvn.in/index.html",
     "static/css/main.2f1fcdc0.chunk.css.map": "/mrvn.in/static/css/main.2f1fcdc0.chunk.css.map",
-    "static/js/2.11753467.chunk.js.LICENSE.txt": "/mrvn.in/static/js/2.11753467.chunk.js.LICENSE.txt"
+    "static/js/2.7cee80f7.chunk.js.LICENSE.txt": "/mrvn.in/static/js/2.7cee80f7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b8359ffc.js",
-    "static/js/2.11753467.chunk.js",
+    "static/js/2.7cee80f7.chunk.js",
     "static/css/main.2f1fcdc0.chunk.css",
-    "static/js/main.bda46f93.chunk.js"
+    "static/js/main.a9e24e41.chunk.js"
   ]
 }
