@@ -6,6 +6,12 @@ export const StateReducer = (state, action) => {
 				darkMode: action.payload ? '#24272c' : '#fff',
 			};
 
+		case 'SET_HEIGHT':
+			return {
+				...state,
+				height: action.payload,
+			};
+
 		default:
 			return state;
 	}

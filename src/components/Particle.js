@@ -10,7 +10,7 @@ const Particle = () => {
 	return (
 		<Particles
 			style={{ backgroundColor: darkMode, position: 'absolute' }}
-			height={height}
+			height={height + 200}
 			width={width}
 			params={{
 				particles: {

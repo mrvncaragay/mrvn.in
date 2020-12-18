@@ -20,12 +20,12 @@ const useStyles = makeStyles((theme) => ({
 	},
 	heading: {
 		flex: 1,
-		color: '#006233',
+		color: '#fff',
 		fontWeight: 'bold',
 	},
 	secondaryHeading: {
 		fontSize: theme.typography.pxToRem(15),
-		color: '#006233',
+		color: '#fff',
 	},
 
 	media: {
@@ -40,12 +40,12 @@ const SpicyGreenBook = ({ panel, expanded, handleChange }) => {
 	const classes = useStyles();
 
 	return (
-		<Accordion expanded={expanded === panel} onChange={handleChange(panel)}>
+		<Accordion square expanded={expanded === panel} onChange={handleChange(panel)}>
 			<AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls='panel1bh-content' id='panel1bh-header'>
 				<Typography variant='h4' component='h4' className={classes.heading}>
 					Spicy Green Book
 				</Typography>
-				<Link href='https://spicygreenbook.org' target='_blank' style={{ color: '#006233', display: 'contents' }}>
+				<Link href='https://spicygreenbook.org' target='_blank' style={{ color: '#FFFFFF8C', display: 'contents' }}>
 					spicygreenbook.org
 				</Link>
 			</AccordionSummary>

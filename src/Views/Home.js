@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 		position: 'relative',
 		display: 'flex',
 		height: '100vh',
-		alignItems: 'center',
+		alignItems: 'flex-start',
 		padding: theme.spacing(6),
 		boxSizing: 'border-box',
 	},
@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
 
 	rightContainer: {
 		flex: 9,
-		padding: theme.spacing(2),
+		alignSelf: 'flex-start',
 	},
 
 	highlightBorder: {

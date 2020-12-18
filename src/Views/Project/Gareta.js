@@ -9,24 +9,16 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import CardMedia from '@material-ui/core/CardMedia';
-import Paper from '@material-ui/core/Paper';
 import gareta from '../../assets/gareta.png';
 import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles((theme) => ({
-	root: {
-		width: '100%',
-	},
 	heading: {
 		flex: 1,
 		color: '#fff',
 		fontWeight: 'bold',
-	},
-	secondaryHeading: {
-		fontSize: theme.typography.pxToRem(15),
-		color: '#006233',
 	},
 
 	media: {

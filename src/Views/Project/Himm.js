@@ -1,38 +1,21 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';
-import Link from '@material-ui/core/Link';
 import List from '@material-ui/core/List';
 import ListItemText from '@material-ui/core/ListItemText';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import CardMedia from '@material-ui/core/CardMedia';
-import sgb from '../../assets/sgb.png';
 import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles((theme) => ({
-	root: {
-		width: '100%',
-	},
 	heading: {
 		flex: 1,
 		color: '#fff',
 		fontWeight: 'bold',
-	},
-	secondaryHeading: {
-		fontSize: theme.typography.pxToRem(15),
-		color: '#006233',
-	},
-
-	media: {
-		height: 0,
-		paddingTop: '65%',
-		backgroundSize: 'contain',
-		backgroundPosition: 'top',
 	},
 }));
 
