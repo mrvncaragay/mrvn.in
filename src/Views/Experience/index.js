@@ -18,7 +18,7 @@ const Experience = () => {
 
 	return (
 		<div className={classes.root}>
-			<SpicyGreenBook expanded={expanded} handleChange={handleChange} />
+			<SpicyGreenBook expanded={expanded} handleChange={handleChange} panel='panel1' />
 		</div>
 	);
 };

@@ -13,6 +13,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import CardMedia from '@material-ui/core/CardMedia';
 import sgb from '../../assets/sgb.png';
 import Grid from '@material-ui/core/Grid';
+import IconButton from '@material-ui/core/IconButton';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -36,11 +38,11 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
-const Experience = ({ expanded, handleChange }) => {
+const Experience = ({ panel, expanded, handleChange }) => {
 	const classes = useStyles();
 
 	return (
-		<Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+		<Accordion expanded={expanded === panel} onChange={handleChange(panel)}>
 			<AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls='panel1bh-content' id='panel1bh-header'>
 				<Typography variant='h4' component='h4' className={classes.heading}>
 					Spicy Green Book
@@ -62,35 +64,45 @@ const Experience = ({ expanded, handleChange }) => {
 							where business owners and loyal customers can come together to support their local community.
 						</Typography>
 
-						<Typography paragraph variant='subtitle2' style={{ color: '#FFFFFF8C', marginBottom: 0, lineHeight: 0 }}>
+						<Typography paragraph variant='subtitle2' style={{ color: '#FFFFFF8C', marginBottom: 0 }}>
 							<b style={{ color: '#fff' }}>Accomplishments: </b>
 						</Typography>
 
 						<List dense style={{ color: '#FFFFFF8C', padding: 0 }}>
-							<ListItem>
-								<ListItemText primary='&#8226; Improved overall performance by 13%, refactoring and preventing unnecessary rerenders of react components' />
-							</ListItem>
+							<ListItemText
+								style={{ lineHeight: 1 }}
+								primary='&#8226; Improved overall performance by 13%, refactoring and preventing unnecessary rerenders of react components'
+							/>
 
-							<ListItem>
-								<ListItemText primary='&#8226; Implemented a navigation system to enhance user experience on native platforms' />
-							</ListItem>
+							<ListItemText
+								style={{ lineHeight: 1 }}
+								primary='&#8226; Implemented a navigation system to enhance user experience on native platforms'
+							/>
 
-							<ListItem>
-								<ListItemText primary='&#8226; Maintained/Resolved application bugs and ensure compatibility on both web and native environments' />
-							</ListItem>
+							<ListItemText
+								style={{ lineHeight: 1 }}
+								primary='&#8226; Maintained/Resolved application bugs and ensure compatibility on both web and native environments'
+							/>
 
-							<ListItem>
-								<ListItemText
-									primary='&#8226; Collaborated with the head of engineering, founder, and other engineers to produce creative and
+							<ListItemText
+								style={{ lineHeight: 1 }}
+								primary='&#8226; Collaborated with the head of engineering, founder, and other engineers to produce creative and
 					efficient solutions'
-								/>
-							</ListItem>
+							/>
 						</List>
 
 						<Typography paragraph variant='subtitle2' style={{ color: '#FFFFFF8C' }}>
 							<b style={{ color: '#fff' }}>Technologies:</b> JavaScript, React (hooks), React Native, Nextjs, Vercel,
 							Git
 						</Typography>
+						<IconButton
+							aria-label='github'
+							style={{ padding: 0 }}
+							href='https://github.com/spicygreenbook/greenbook-app'
+							target='_blank'
+						>
+							<GitHubIcon />
+						</IconButton>
 					</Grid>
 				</Grid>
 			</AccordionDetails>
