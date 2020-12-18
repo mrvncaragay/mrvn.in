@@ -18,5 +18,11 @@ export default createMuiTheme({
 				color: '#fff',
 			},
 		},
+
+		MuiPaper: {
+			root: {
+				backgroundColor: 'inherit',
+			},
+		},
 	},
 });

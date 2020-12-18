@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
@@ -30,6 +31,14 @@ const useStyles = makeStyles((theme) => ({
 	rightContainer: {
 		flex: 9,
 		padding: theme.spacing(2),
+	},
+
+	highlightBorder: {
+		transition: 'border 0.5s',
+		border: '1px solid #24272c',
+		'&:hover': {
+			border: '1px solid #9e9e9e',
+		},
 	},
 }));
 
@@ -67,17 +76,19 @@ const Home = () => {
 	return (
 		<div className={classes.root} style={{ flexDirection: matches ? 'row' : 'column' }}>
 			<div className={classes.leftContainer}>
-				<Tabs
-					orientation={matches ? 'vertical' : 'horizontal'}
-					value={value}
-					onChange={handleChange}
-					aria-label='simple tabs'
-				>
-					<Tab label='Home' {...a11yProps(0)} />
-					<Tab label='Experience' {...a11yProps(1)} />
-					<Tab label='Project' {...a11yProps(2)} />
-					<Tab label='Resume' {...a11yProps(3)} />
-				</Tabs>
+				<Paper zIndex='tooltip' elevation={3} className={`${classes.highlightBorder}`}>
+					<Tabs
+						orientation={matches ? 'vertical' : 'horizontal'}
+						value={value}
+						onChange={handleChange}
+						aria-label='simple tabs'
+					>
+						<Tab label='Home' {...a11yProps(0)} />
+						<Tab label='Experience' {...a11yProps(1)} />
+						<Tab label='Project' {...a11yProps(2)} />
+						<Tab label='Resume' {...a11yProps(3)} />
+					</Tabs>
+				</Paper>
 			</div>
 
 			<div className={classes.rightContainer}>
