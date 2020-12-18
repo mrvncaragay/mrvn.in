@@ -6,7 +6,8 @@ import Paper from '@material-ui/core/Paper';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Me from './Me';
-import Experience from './Experience/index';
+import Experience from './Experience';
+import Project from './Project';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -83,9 +84,9 @@ const Home = () => {
 						onChange={handleChange}
 						aria-label='simple tabs'
 					>
-						<Tab label='Home' {...a11yProps(0)} />
-						<Tab label='Experience' {...a11yProps(1)} />
-						<Tab label='Project' {...a11yProps(2)} />
+						<Tab label='Home' {...a11yProps(0)} style={{ textTransform: 'capitalize' }} />
+						<Tab label='Experience' {...a11yProps(1)} style={{ textTransform: 'capitalize' }} />
+						<Tab label='Project' {...a11yProps(2)} style={{ textTransform: 'capitalize' }} />
 						<Tab
 							label='Resume'
 							{...a11yProps(0)}
@@ -95,6 +96,7 @@ const Home = () => {
 									'_blank'
 								)
 							}
+							style={{ textTransform: 'capitalize' }}
 						/>
 					</Tabs>
 				</Paper>
@@ -108,7 +110,7 @@ const Home = () => {
 					<Experience />
 				</TabPanel>
 				<TabPanel value={value} index={2}>
-					Item Three
+					<Project />
 				</TabPanel>
 			</div>
 		</div>

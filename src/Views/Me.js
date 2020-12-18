@@ -47,10 +47,10 @@ const Me = () => {
 						industry for several years. My desire to pursue my passion for software development is unbearable to ignore.
 					</Typography>
 					<Typography paragraph>
-						In February 2019, I left the unhappy life I was in to focus solely on growing and honing my programming
-						skills. My passion for development is incomparable. Every day I wake up excited to code and sometimes
-						frustrated after realizing why my code does not work. I love every aspect of turning ideas into software
-						products and find each step of the way exciting.
+						In 2019, I left the unhappy life I was in to focus solely on growing and honing my programming skills. My
+						passion for development is incomparable. Every day I wake up excited to code and sometimes frustrated after
+						realizing why my code does not work. I love every aspect of turning ideas into software products and find
+						each step of the way exciting.
 					</Typography>
 					<Typography paragraph>
 						Besides coding, I like watching bastketball and tennis, working out in the gym, visiting friends, and
