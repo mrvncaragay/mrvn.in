@@ -11,7 +11,7 @@ import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
 	heading: {
 		flex: 1,
 		color: '#fff',
