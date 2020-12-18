@@ -24,5 +24,23 @@ export default createMuiTheme({
 				backgroundColor: 'inherit',
 			},
 		},
+
+		MuiAccordionSummary: {
+			content: {
+				flexDirection: 'column',
+			},
+		},
+
+		MuiIconButton: {
+			root: {
+				color: '#fff',
+			},
+		},
+
+		MuiTypography: {
+			paragraph: {
+				fontSize: 14,
+			},
+		},
 	},
 });

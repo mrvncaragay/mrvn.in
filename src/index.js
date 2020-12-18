@@ -7,12 +7,10 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import Theme from './styles/custom';
 
 ReactDOM.render(
-	<React.StrictMode>
-		<StateProvider initialState={InitialState} reducer={StateReducer}>
-			<ThemeProvider theme={Theme}>
-				<App />
-			</ThemeProvider>
-		</StateProvider>
-	</React.StrictMode>,
+	<StateProvider initialState={InitialState} reducer={StateReducer}>
+		<ThemeProvider theme={Theme}>
+			<App />
+		</ThemeProvider>
+	</StateProvider>,
 	document.getElementById('root')
 );

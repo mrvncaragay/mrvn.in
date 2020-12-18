@@ -42,17 +42,17 @@ const Me = () => {
 				</Grid>
 
 				<Grid item sm={8} style={{ color: '#FFFFFF8C', fontWeight: 'lighter' }}>
-					<Typography paragraph style={{ fontSize: 14 }}>
+					<Typography paragraph>
 						After developing Lost & Found system and User Request Form while working as IT Specialist in the Hospitality
 						industry for several years. My desire to pursue my passion for software development is unbearable to ignore.
 					</Typography>
-					<Typography paragraph style={{ fontSize: 14 }}>
+					<Typography paragraph>
 						In February 2019, I left the unhappy life I was in to focus solely on growing and honing my programming
 						skills. My passion for development is incomparable. Every day I wake up excited to code and sometimes
 						frustrated after realizing why my code does not work. I love every aspect of turning ideas into software
 						products and find each step of the way exciting.
 					</Typography>
-					<Typography paragraph style={{ fontSize: 14 }}>
+					<Typography paragraph>
 						Besides coding, I like watching bastketball and tennis, working out in the gym, visiting friends, and
 						playing online games.
 					</Typography>
@@ -67,7 +67,7 @@ const Me = () => {
 					</Typography>
 
 					<Typography paragraph variant='subtitle2'>
-						<b style={{ color: '#fff' }}>Familliar:</b> gile(scrum), npm, Cassandra, Linux, Git, Mocha/Chai,
+						<b style={{ color: '#fff' }}>Familliar:</b> Agile(scrum), npm, Cassandra, Linux, Git, Mocha/Chai,
 						Jest/Enzyme, Next.js, New Relic, Loader.io, Jmeter
 					</Typography>
 				</Grid>

@@ -6,6 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Me from './Me';
+import Experience from './Experience/index';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -104,7 +105,7 @@ const Home = () => {
 					<Me />
 				</TabPanel>
 				<TabPanel value={value} index={1}>
-					Item Two
+					<Experience />
 				</TabPanel>
 				<TabPanel value={value} index={2}>
 					Item Three
