@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mrvn.in/static/css/main.2f1fcdc0.chunk.css",
-    "main.js": "/mrvn.in/static/js/main.0fe08753.chunk.js",
-    "main.js.map": "/mrvn.in/static/js/main.0fe08753.chunk.js.map",
+    "main.js": "/mrvn.in/static/js/main.97cc19c5.chunk.js",
+    "main.js.map": "/mrvn.in/static/js/main.97cc19c5.chunk.js.map",
     "runtime-main.js": "/mrvn.in/static/js/runtime-main.b8359ffc.js",
     "runtime-main.js.map": "/mrvn.in/static/js/runtime-main.b8359ffc.js.map",
     "static/js/2.d6bd48b9.chunk.js": "/mrvn.in/static/js/2.d6bd48b9.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.b8359ffc.js",
     "static/js/2.d6bd48b9.chunk.js",
     "static/css/main.2f1fcdc0.chunk.css",
-    "static/js/main.0fe08753.chunk.js"
+    "static/js/main.97cc19c5.chunk.js"
   ]
 }
