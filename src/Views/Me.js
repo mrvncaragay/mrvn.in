@@ -21,36 +21,38 @@ const Me = () => {
 	return (
 		<Paper>
 			<Grid container spacing={3} style={{ padding: 24 }}>
-				<Grid item sm={12} md={6}>
+				<Grid item sm={4}>
 					<Card>
 						<CardMedia className={classes.media} image={me} title='Marvin Caragay' />
 					</Card>
 
-					<CardContent style={{ padding: 0, paddingTop: 16 }}>
-						<Typography display='inline' variant='h3' style={{ color: '#fff', fontWeight: 'bold' }}>
+					<CardContent style={{ padding: 0, paddingTop: 16, flex: 1 }}>
+						<Typography variant='h3' style={{ color: '#fff', fontWeight: 'bold' }}>
 							Hello,
 						</Typography>
-						&nbsp;
-						<Typography display='inline' variant='h4' style={{ color: '#fff', fontWeight: 'bold' }}>
+
+						<Typography variant='h5' style={{ color: '#fff', fontWeight: 'bold' }}>
 							I'm Marvin Caragay.
 						</Typography>
+
 						<Typography variant='h6' component='h3' style={{ color: '#FFFFFF8C', fontWeight: 'lighter' }}>
 							(Software Engineer)
 						</Typography>
 					</CardContent>
 				</Grid>
-				<Grid item sm={12} md={6} style={{ color: '#FFFFFF8C', fontWeight: 'lighter' }}>
-					<Typography paragraph>
+
+				<Grid item sm={8} style={{ color: '#FFFFFF8C', fontWeight: 'lighter' }}>
+					<Typography paragraph style={{ fontSize: 14 }}>
 						After developing Lost & Found system and User Request Form while working as IT Specialist in the Hospitality
 						industry for several years. My desire to pursue my passion for software development is unbearable to ignore.
 					</Typography>
-					<Typography paragraph>
+					<Typography paragraph style={{ fontSize: 14 }}>
 						In February 2019, I left the unhappy life I was in to focus solely on growing and honing my programming
 						skills. My passion for development is incomparable. Every day I wake up excited to code and sometimes
 						frustrated after realizing why my code does not work. I love every aspect of turning ideas into software
 						products and find each step of the way exciting.
 					</Typography>
-					<Typography paragraph>
+					<Typography paragraph style={{ fontSize: 14 }}>
 						Besides coding, I like watching bastketball and tennis, working out in the gym, visiting friends, and
 						playing online games.
 					</Typography>

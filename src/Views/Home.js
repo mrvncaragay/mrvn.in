@@ -85,7 +85,16 @@ const Home = () => {
 						<Tab label='Home' {...a11yProps(0)} />
 						<Tab label='Experience' {...a11yProps(1)} />
 						<Tab label='Project' {...a11yProps(2)} />
-						<Tab label='Resume' {...a11yProps(3)} />
+						<Tab
+							label='Resume'
+							{...a11yProps(0)}
+							onClick={() =>
+								window.open(
+									'https://docs.google.com/document/d/1Qtf19ZW47kYCcm06HFqylTafhlyXRyVCyDHD5wHeUck/preview',
+									'_blank'
+								)
+							}
+						/>
 					</Tabs>
 				</Paper>
 			</div>
