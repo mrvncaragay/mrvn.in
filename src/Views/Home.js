@@ -1,12 +1,11 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Me from './Me';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -60,7 +59,7 @@ function TabPanel(props) {
 			aria-labelledby={`simple-tab-${index}`}
 			{...other}
 		>
-			{value === index && <Typography>{children}</Typography>}
+			{value === index && children}
 		</div>
 	);
 }
@@ -76,7 +75,7 @@ const Home = () => {
 	return (
 		<div className={classes.root} style={{ flexDirection: matches ? 'row' : 'column' }}>
 			<div className={classes.leftContainer}>
-				<Paper zIndex='tooltip' elevation={3} className={`${classes.highlightBorder}`}>
+				<Paper className={`${classes.highlightBorder}`}>
 					<Tabs
 						orientation={matches ? 'vertical' : 'horizontal'}
 						value={value}
@@ -93,7 +92,7 @@ const Home = () => {
 
 			<div className={classes.rightContainer}>
 				<TabPanel value={value} index={0}>
-					<Button>Overrides CSS</Button>
+					<Me />
 				</TabPanel>
 				<TabPanel value={value} index={1}>
 					Item Two

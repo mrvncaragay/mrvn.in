@@ -2,7 +2,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 export default createMuiTheme({
 	typography: {
-		fontFamily: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'].join(','),
+		fontFamily: ['Roboto', 'sans-serif', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"'].join(','),
 	},
 	overrides: {
 		PrivateTabIndicator: {

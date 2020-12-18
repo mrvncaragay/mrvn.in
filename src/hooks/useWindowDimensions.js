@@ -2,15 +2,21 @@ import { useState, useEffect } from 'react';
 import { debounce } from 'lodash/fp';
 
 function getWindowDimensions() {
+	const { scrollHeight } = document.body;
 	const { innerWidth: width, innerHeight: height } = window;
+
 	return {
+		height: scrollHeight ? scrollHeight : height,
 		width,
-		height,
 	};
 }
 
 export default function useWindowDimensions() {
-	const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+	const [windowDimensions, setWindowDimensions] = useState({ height: 0, width: 0 });
+
+	useEffect(() => {
+		setWindowDimensions(getWindowDimensions());
+	}, []);
 
 	useEffect(() => {
 		function handleResize() {
