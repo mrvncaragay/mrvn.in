@@ -19,6 +19,12 @@ export default createMuiTheme({
 			},
 		},
 
+		MuiTabs: {
+			flexContainer: {
+				justifyContent: 'center',
+			},
+		},
+
 		MuiPaper: {
 			root: {
 				backgroundColor: 'inherit',
