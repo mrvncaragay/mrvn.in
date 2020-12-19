@@ -6,12 +6,15 @@ import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import me from '../assets/marv.jpg';
 
 const useStyles = makeStyles((theme) => ({
 	media: {
 		height: 0,
-		paddingTop: '90%',
+		paddingTop: '86%',
 	},
 }));
 
@@ -70,6 +73,24 @@ const Me = () => {
 						<b style={{ color: '#fff' }}>Familliar:</b> Agile(scrum), npm, Cassandra, Linux, Git, Mocha/Chai,
 						Jest/Enzyme, Next.js, New Relic, Loader.io, Jmeter
 					</Typography>
+
+					<IconButton
+						aria-label='github'
+						style={{ padding: 0, marginRight: 8 }}
+						href='https://github.com/mrvncaragay'
+						target='_blank'
+					>
+						<GitHubIcon />
+					</IconButton>
+
+					<IconButton
+						aria-label='linkedin'
+						style={{ padding: 0, marginTop: 1 }}
+						href='https://linkedin.com/in/mrvncaragay'
+						target='_blank'
+					>
+						<LinkedInIcon style={{ fontSize: 29 }} />
+					</IconButton>
 				</Grid>
 			</Grid>
 		</Paper>
