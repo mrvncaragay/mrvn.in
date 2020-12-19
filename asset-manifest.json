@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mrvn.in/static/css/main.2f1fcdc0.chunk.css",
-    "main.js": "/mrvn.in/static/js/main.97cc19c5.chunk.js",
-    "main.js.map": "/mrvn.in/static/js/main.97cc19c5.chunk.js.map",
-    "runtime-main.js": "/mrvn.in/static/js/runtime-main.b8359ffc.js",
-    "runtime-main.js.map": "/mrvn.in/static/js/runtime-main.b8359ffc.js.map",
-    "static/js/2.d6bd48b9.chunk.js": "/mrvn.in/static/js/2.d6bd48b9.chunk.js",
-    "static/js/2.d6bd48b9.chunk.js.map": "/mrvn.in/static/js/2.d6bd48b9.chunk.js.map",
-    "index.html": "/mrvn.in/index.html",
-    "static/css/main.2f1fcdc0.chunk.css.map": "/mrvn.in/static/css/main.2f1fcdc0.chunk.css.map",
-    "static/js/2.d6bd48b9.chunk.js.LICENSE.txt": "/mrvn.in/static/js/2.d6bd48b9.chunk.js.LICENSE.txt",
-    "static/media/cpicker.03f57336.png": "/mrvn.in/static/media/cpicker.03f57336.png",
-    "static/media/gareta.88550458.png": "/mrvn.in/static/media/gareta.88550458.png",
-    "static/media/marv.8f0d7231.jpg": "/mrvn.in/static/media/marv.8f0d7231.jpg",
-    "static/media/sgb.0b886c2f.png": "/mrvn.in/static/media/sgb.0b886c2f.png"
+    "main.css": "/static/css/main.2f1fcdc0.chunk.css",
+    "main.js": "/static/js/main.97cc19c5.chunk.js",
+    "main.js.map": "/static/js/main.97cc19c5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3be10d62.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3be10d62.js.map",
+    "static/js/2.d6bd48b9.chunk.js": "/static/js/2.d6bd48b9.chunk.js",
+    "static/js/2.d6bd48b9.chunk.js.map": "/static/js/2.d6bd48b9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2f1fcdc0.chunk.css.map": "/static/css/main.2f1fcdc0.chunk.css.map",
+    "static/js/2.d6bd48b9.chunk.js.LICENSE.txt": "/static/js/2.d6bd48b9.chunk.js.LICENSE.txt",
+    "static/media/cpicker.03f57336.png": "/static/media/cpicker.03f57336.png",
+    "static/media/gareta.88550458.png": "/static/media/gareta.88550458.png",
+    "static/media/marv.8f0d7231.jpg": "/static/media/marv.8f0d7231.jpg",
+    "static/media/sgb.0b886c2f.png": "/static/media/sgb.0b886c2f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8359ffc.js",
+    "static/js/runtime-main.3be10d62.js",
     "static/js/2.d6bd48b9.chunk.js",
     "static/css/main.2f1fcdc0.chunk.css",
     "static/js/main.97cc19c5.chunk.js"
