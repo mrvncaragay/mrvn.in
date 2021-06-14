@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
 	mediaContainer: {
 		[theme.breakpoints.down('xs')]: {
 			width: '70%',
+			margin: 'auto',
 		},
 	},
 }));
