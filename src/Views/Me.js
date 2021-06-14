@@ -15,6 +15,14 @@ const useStyles = makeStyles((theme) => ({
 	media: {
 		height: 0,
 		paddingTop: '86%',
+		[theme.breakpoints.down('sm')]: {
+			alignSelf: 'center',
+		},
+	},
+	mediaContainer: {
+		[theme.breakpoints.down('xs')]: {
+			width: '70%',
+		},
 	},
 }));
 
@@ -24,8 +32,8 @@ const Me = () => {
 	return (
 		<Paper>
 			<Grid container spacing={3} style={{ padding: 24 }}>
-				<Grid item sm={4}>
-					<Card>
+				<Grid item sm={4} style={{ flex: 1 }}>
+					<Card className={classes.mediaContainer}>
 						<CardMedia className={classes.media} image={me} title='Marvin Caragay' />
 					</Card>
 

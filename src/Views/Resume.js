@@ -5,6 +5,7 @@ import GetApp from '@material-ui/icons/GetApp';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
+		display: 'flex',
 		width: '100%',
 		marginTop: 24,
 	},
@@ -37,7 +38,7 @@ const Resume = () => {
 			<embed
 				type='application/pdf'
 				src='https://docs.google.com/document/d/1Qtf19ZW47kYCcm06HFqylTafhlyXRyVCyDHD5wHeUck/preview'
-				style={{ height: '-webkit-fill-available', width: '-webkit-fill-available' }}
+				style={{ height: 900, flex: 1 }}
 			/>
 		</div>
 	);

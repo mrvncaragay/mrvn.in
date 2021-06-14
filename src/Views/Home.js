@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme) => ({
 		position: 'relative',
 		padding: theme.spacing(6),
 		height: '100vh',
+		[theme.breakpoints.down('sm')]: {
+			padding: theme.spacing(1),
+		},
 	},
 
 	highlightBorder: {
